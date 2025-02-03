@@ -26,4 +26,4 @@ RUN pip install --no-cache-dir --upgrade . &&\
 ENV PORT=8000
 
 # Run our app by default
-CMD ["python", "-m", "app"]
+CMD ["python", "-m", "app", "uvicorn"]
